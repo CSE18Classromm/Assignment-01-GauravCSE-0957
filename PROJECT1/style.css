@@ -1,0 +1,98 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Navbar using FLEX */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #34495e;
+    padding: 12px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Main container */
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Intro section */
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* GRID section */
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Button section using FLEX */
+.btn-area {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    .grid-box {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
