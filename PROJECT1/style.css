@@ -28,6 +28,28 @@ body {
     font-size: 16px;
 }
 
+.navbar a:hover{
+    color:indianred
+}
+#card1 img{
+    width:100%;
+}
+#card2 img{
+    width:100%;
+}
+#card3 img{
+    width:100%;
+}
+.card:hover{
+    box-shadow: 1px 1px 25px black;
+}
+.card a:hover{
+    color:coral
+}
+.btn-area button:hover{
+    color:black;
+}
+
 
 .container {
     width: 85%;
@@ -75,6 +97,8 @@ button {
     text-align: center;
     padding: 12px;
 }
+
+
 
 @media (max-width: 768px) {
 
